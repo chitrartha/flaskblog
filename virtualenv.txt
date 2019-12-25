@@ -22,13 +22,13 @@ secrets.token_hex(20)
 export SECRET_KEY='bd95f3a0f540b80f9e8ad1935d43f5e183f83e73'
 export SQLALCHEMY_DATABASE_URI='sqlite:///site.db'
 export MAIL_USERNAME='chitrartha.sur@gmail.com'
-export MAIL_PASSWORD='March@2016'
+export MAIL_PASSWORD='*****'
 
 For windows:
 set SECRET_KEY=bd95f3a0f540b80f9e8ad1935d43f5e183f83e73
 set SQLALCHEMY_DATABASE_URI=sqlite:///site.db
 set MAIL_USERNAME=chitrartha.sur@gmail.com
-set MAIL_PASSWORD=March@2016
+set MAIL_PASSWORD=*****
 
 pip3 install -r requirements.txt
 pip3 install gunicorn
